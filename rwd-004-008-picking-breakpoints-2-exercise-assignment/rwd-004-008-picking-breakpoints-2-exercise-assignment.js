@@ -9,7 +9,8 @@ document.getElementsByTagName("head")[0].appendChild(element);
 var imgSources = Array.from(xmlDoc.getElementsByTagName("img"));
 var i = 0;
 do {
-    document.getElementsByTagName(cityNames[i]).src = (basePath+'images/'+cityNames[i].src);
+    document.body.innerHTML = '<di>'+imgSources[i].src+'</div>' + document.body.innerHTML;
+    document.getElementsByTagName(imgSources[i]).src = (basePath+'images/'+imgSources[i].src);
     i++;
 }while (i < imgSources.length);
 
