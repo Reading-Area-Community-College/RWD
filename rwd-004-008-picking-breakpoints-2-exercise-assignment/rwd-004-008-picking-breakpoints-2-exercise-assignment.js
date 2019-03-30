@@ -1,5 +1,5 @@
 var basePath = '"https://reading-area-community-college.github.io/RWD/rwd-004-008-picking-breakpoints-2-exercise-assignment/';
-var element = document.createElement(basePath+'rwd-004-008-picking-breakpoints-2-exercise-assignment.css");
+var element = document.createElement(basePath+'rwd-004-008-picking-breakpoints-2-exercise-assignment.css');
 element.setAttribute("rel", "stylesheet");
 element.setAttribute("type", "text/css");
 element.setAttribute("href", "external.css");
