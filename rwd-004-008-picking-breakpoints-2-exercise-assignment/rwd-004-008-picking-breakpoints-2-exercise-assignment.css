@@ -143,7 +143,7 @@ main {
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("dog.jpg");
+  background-image: url("https://reading-area-community-college.github.io/RWD/rwd-004-008-picking-breakpoints-2-exercise-assignment/images/dog.jpg");
   background-size: cover;
   height: 300px;
 }
