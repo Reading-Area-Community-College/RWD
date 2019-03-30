@@ -6,7 +6,7 @@ element.setAttribute("href", "external.css");
 document.getElementsByTagName("head")[0].appendChild(element);
 
 
-var imgSources = Array.from(xmlDoc.getElementsByTagName("img"));
+var imgSources = Array.from(document.getElementsByTagName("img"));
 var i = 0;
 do {
     document.body.innerHTML = '<di>'+imgSources[i].src+'</div>' + document.body.innerHTML;
