@@ -49,6 +49,7 @@ body {
 
 .purple {
   background-color: purple;
+  color: #efefef;
 }
 
 .brown {
@@ -57,6 +58,12 @@ body {
 
 .black {
   background-color: black;
+  color: #efefef;
+}
+
+.gray {
+  background-color: #777777;
+  color: #efefef;
 }
 
 .pink {
